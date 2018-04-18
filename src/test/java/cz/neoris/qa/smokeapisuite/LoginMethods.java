@@ -9,7 +9,7 @@ import static com.jayway.restassured.RestAssured.given;
 import static com.jayway.restassured.RestAssured.when;
 import static org.hamcrest.core.IsNull.notNullValue;
 
-public class TestAPISmokeSuite implements Helper {
+public class LoginMethods implements Helper {
 
 
     private void AuthenticateUser(String username, String pwd) {
@@ -66,10 +66,4 @@ public class TestAPISmokeSuite implements Helper {
 
     }
 
-
-
-    @Test
-    public void TestOrderhistory() {
-
-    }
 }

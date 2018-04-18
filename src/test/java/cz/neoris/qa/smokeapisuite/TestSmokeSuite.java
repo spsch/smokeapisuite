@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 import static com.jayway.restassured.RestAssured.given;
 import static com.jayway.restassured.http.ContentType.JSON;
 
-public class TestLogin implements Helper {
+public class TestSmokeSuite implements Helper {
 
  /*this service returns acces token*/
     public String LoginServiceToken(String token) {
@@ -40,7 +40,7 @@ public class TestLogin implements Helper {
     }
 
     @Test
-    public void TestL(){
+    public void TestOrderHistory(){
         String token = null;
         String jwt = null;
 
